@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FDF5E6;
+  --foreground: #2F4F4F;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: #1A1A1A;
+  --foreground: #FDF5E6;
+}
+
+html, body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
