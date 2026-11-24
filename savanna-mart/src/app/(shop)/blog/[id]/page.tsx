@@ -3,11 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 
+type BlogPost = {
+  title: string;
+  content: string;
+  image: string;
+  date: string;
+  author: string;
+};
+
 export default async function BlogPostPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   
   // Mock data for the sample posts
-  const posts: Record<string, any> = {
+  const posts: Record<string, BlogPost> = {
     "1": {
       title: "5 Tips for Fresh Grocery Shopping in Kigali",
       content: "Shopping for groceries can be a delightful experience if you know what to look for. At Simba Supermarket, we ensure that our shelves are stocked with the freshest produce every morning. Here are five tips to help you get the best out of your next visit...",

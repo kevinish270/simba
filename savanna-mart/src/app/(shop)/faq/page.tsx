@@ -1,4 +1,4 @@
-import { HelpCircle, ChevronRight } from "lucide-react";
+import { HelpCircle } from "lucide-react";
 
 export default function FAQPage() {
   const faqs = [
@@ -62,7 +62,7 @@ export default function FAQPage() {
 
           <div className="bg-slate-900 text-white p-12 rounded-[3rem] text-center">
             <h3 className="text-2xl font-black mb-4">Still have questions?</h3>
-            <p className="text-slate-400 mb-8">If you couldn't find the answer you're looking for, please contact our support team.</p>
+            <p className="text-slate-400 mb-8">If you couldn&apos;t find the answer you&apos;re looking for, please contact our support team.</p>
             <button className="bg-primary text-slate-900 font-black px-10 py-4 rounded-2xl hover:scale-105 transition-transform">
               CONTACT SUPPORT
             </button>

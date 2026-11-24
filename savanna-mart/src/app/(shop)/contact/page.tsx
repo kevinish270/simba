@@ -7,7 +7,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-black mb-6 tracking-tight">Get in <span className="text-primary">Touch</span></h1>
           <p className="text-xl text-slate-400 max-w-2xl font-medium">
-            Have a question or feedback? We're here to help. Reach out to the Simba team anytime.
+            Have a question or feedback? We&apos;re here to help. Reach out to the Simba team anytime.
           </p>
         </div>
       </section>

@@ -1,4 +1,3 @@
-import { useTranslation } from "@/store/LanguageContext";
 import Image from "next/image";
 
 export default function AboutPage() {
@@ -9,7 +8,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-5xl md:text-7xl font-black mb-6 tracking-tight">The King of <span className="text-primary">Freshness</span></h1>
           <p className="text-xl text-slate-400 max-w-2xl font-medium leading-relaxed">
-            Since our inception, Simba Supermarket has been at the forefront of Rwanda's retail revolution, bringing quality, variety, and affordability to every household.
+            Since our inception, Simba Supermarket has been at the forefront of Rwanda&apos;s retail revolution, bringing quality, variety, and affordability to every household.
           </p>
         </div>
         <div className="absolute right-[-10%] top-[-10%] w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] opacity-30"></div>
@@ -21,7 +20,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-black text-slate-900 mb-6">Our Story</h2>
             <p className="text-slate-600 mb-6 leading-relaxed">
-              Founded with a vision to provide a superior shopping experience, Simba Supermarket started as a local family business in the heart of Kigali. Over the years, we have grown into one of Rwanda's most trusted retail chains, known for our commitment to quality and customer satisfaction.
+              Founded with a vision to provide a superior shopping experience, Simba Supermarket started as a local family business in the heart of Kigali. Over the years, we have grown into one of Rwanda&apos;s most trusted retail chains, known for our commitment to quality and customer satisfaction.
             </p>
             <p className="text-slate-600 mb-6 leading-relaxed">
               We take pride in sourcing the freshest produce from local farmers, supporting our community while ensuring that our customers always get the best. From daily essentials to premium imports, Simba is your one-stop shop for everything you need.

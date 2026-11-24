@@ -1,4 +1,4 @@
-import { RotateCcw, ShieldCheck, HelpCircle } from "lucide-react";
+import { RotateCcw } from "lucide-react";
 
 export default function ReturnsPage() {
   return (
@@ -7,7 +7,7 @@ export default function ReturnsPage() {
         <div className="container mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-black mb-6 tracking-tight">Returns & <span className="text-primary">Refunds</span></h1>
           <p className="text-xl text-slate-400 max-w-2xl font-medium leading-relaxed">
-            Your satisfaction is our pride. If something isn't right, we're here to make it better.
+            Your satisfaction is our pride. If something isn&apos;t right, we&apos;re here to make it better.
           </p>
         </div>
       </section>

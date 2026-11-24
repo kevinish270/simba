@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Languages, Globe, Check } from 'lucide-react';
+import { Globe, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from '@/store/LanguageContext';
 import { Language } from '@/lib/translations';
@@ -27,8 +27,6 @@ export default function LanguageSwitcher() {
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
-
-  const currentLang = languages.find(l => l.code === language) || languages[0];
 
   return (
     <div className="relative" ref={dropdownRef}>

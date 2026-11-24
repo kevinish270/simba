@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { translations, Language } from '@/lib/translations';
+import { translations, Language, TranslationValue } from '@/lib/translations';
 
 type LanguageContextType = {
   language: Language;
@@ -28,10 +28,10 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
 
   const t = (path: string): string => {
     const keys = path.split('.');
-    let result: any = translations[language];
+    let result: TranslationValue = translations[language];
     
     for (const key of keys) {
-      if (result && result[key]) {
+      if (typeof result !== 'string' && key in result) {
         result = result[key];
       } else {
         return path; // Fallback to key path if translation missing

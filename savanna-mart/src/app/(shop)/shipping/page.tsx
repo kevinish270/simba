@@ -48,7 +48,7 @@ export default function ShippingPage() {
 
             <h3 className="text-xl font-bold text-slate-900 mb-4">Tracking Your Order</h3>
             <p className="text-slate-600 mb-8 leading-relaxed">
-              Once your order is out for delivery, you will receive an SMS notification with the delivery person's contact details. You can also track your order status in real-time through the "My Orders" section of your Simba account.
+              Once your order is out for delivery, you will receive an SMS notification with the delivery person&apos;s contact details. You can also track your order status in real-time through the &quot;My Orders&quot; section of your Simba account.
             </p>
 
             <h3 className="text-xl font-bold text-slate-900 mb-4">Delivery Safety</h3>

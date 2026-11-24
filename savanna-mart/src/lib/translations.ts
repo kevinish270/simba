@@ -1,5 +1,7 @@
 export type Language = 'en' | 'fr' | 'rw';
 
+export type TranslationValue = string | { readonly [key: string]: TranslationValue };
+
 export const translations = {
   en: {
     common: {
@@ -109,4 +111,4 @@ export const translations = {
       signUpWithGoogle: "Iyongere natwe ukoresheje Google",
     }
   }
-};
+} satisfies Record<Language, TranslationValue>;
