@@ -7,6 +7,8 @@ import Image from "next/image";
 import { formatCurrency, serialize } from "@/lib/utils";
 import ProductActions from "@/components/shop/ProductActions";
 
+export const dynamic = "force-dynamic";
+
 export default async function ShopPage({
   searchParams
 }: {

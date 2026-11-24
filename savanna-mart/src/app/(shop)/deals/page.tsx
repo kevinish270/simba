@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Zap, Timer } from "lucide-react";
 import AddToCartButton from "@/components/shop/AddToCartButton";
 
+export const dynamic = "force-dynamic";
+
 export default async function DealsPage() {
   const discountedProducts = await prisma.product.findMany({
     where: {
